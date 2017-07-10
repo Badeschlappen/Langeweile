@@ -5,14 +5,14 @@ body, html {
   padding:0;
   width:100%;
   height:100%;
-  background:url(../img/COMING.png) no-repeat center center;
+  background:url(../img/COMING.png)#000 no-repeat center center;
   background-size:cover;
   font-family: 'Oswald';
   font-weight: 300;
 }
 
-a:link {text-decoration: none; color: #fff}
-a:visited {text-decoration: none; color: #fff}
+a:link {text-decoration: none; color: #fff; outline: none;}
+a:visited {text-decoration: none; color: #fff; outline: none;}
 
 /* ############################################################## */
 /* ############################ Cool Sitebar #################### */
@@ -94,8 +94,9 @@ aside ul li:hover > a .lw_menu_icon i {
 
 section {width:800px; margin:150px auto 150px auto;}
 
+
 #lw_social  { position:fixed; top:50%; right:0; margin:-147.5px 0 0 0; width:70px;}
-#lw_social .lw_icon {width:70px;  height:70px; background:#444; position:relative; margin:0 0 5px 0}
+#lw_social .lw_icon {width:70px;  height:70px; background:#444; position:relative; margin:0 0 5px 0};
 #lw_social .lw_icon:last-child {margin:0;}
 #lw_social .lw_icon span {width:70px; height:70px; position:absolute; top:0; right:-70px; z-index:1;}
 #lw_social .lw_icon img {width:100%; position: absolute; top:0; left:0; z-index:3;}
@@ -104,3 +105,11 @@ section {width:800px; margin:150px auto 150px auto;}
 .lw_twitter {background:#33ccff}
 .lw_youtube {background:#c4302b}
 .lw_twitch {background:#6441a5}
+
+
+/* ############################################################## */
+/* ######################### Section Twitch ##################### */
+/* ############################################################## */
+
+#lw_twitch { width: 75%; height: 50%; position: absolute; margin: 0 auto; left:15%; top:15%;}
+#lw_twitch_channel { width: 100%; height: 75%; border-style: hidden; margin-top: 10px;}
