@@ -92,7 +92,7 @@ aside ul li:hover > a .lw_menu_icon i {
 section {width:800px; margin:150px auto 150px auto;}
 
 #lw_social  { position:fixed; top:50%; right:0; margin:-147.5px 0 0 0; width:70px;}
-#lw_social .lw_icon {width:70px;  height:70px; background:#ff6600; position:relative; margin:0 0 5px 0}
+#lw_social .lw_icon {width:70px;  height:70px; background:#444; position:relative; margin:0 0 5px 0}
 #lw_social .lw_icon:last-child {margin:0;}
 #lw_social .lw_icon span {width:70px; height:70px; position:absolute; top:0; right:-70px; z-index:1;}
 #lw_social .lw_icon img {width:100%; position: absolute; top:0; left:0; z-index:3;}
