@@ -84,3 +84,19 @@ aside ul li:hover > a .lw_menu_icon i {
   transform: scale(1.5) translate(-50%,-50%);
   color: #fff;
 }
+
+/* ############################################################## */
+/* ############################ Social Bar ####################### */
+/* ############################################################## */
+
+section {width:800px; margin:150px auto 150px auto;}
+
+#lw_social  { position:fixed; top:50%; right:0; margin:-147.5px 0 0 0; width:70px;}
+#lw_social .lw_icon {width:70px;  height:70px; background:#ff6600; position:relative; margin:0 0 5px 0}
+#lw_social .lw_icon:last-child {margin:0;}
+#lw_social .lw_icon span {width:70px; height:70px; position:absolute; top:0; left:-70px; z-index:1;}
+#lw_social .lw_icon img {width:100%; position: absolute; top:0; left:0; z-index:3;}
+
+.lw_facebook {background:#3b5997}
+.lw_twitter {background:#33ccff}
+.lw_youtube {background:#c4302b}
