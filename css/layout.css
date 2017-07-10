@@ -1,0 +1,78 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url(..img/bg.jpg) no-repeat center center;
+  background-size: cover;
+  font-family: 'oswald' ;
+  font-weight: 300;
+}
+
+/* ################################################################## */
+/* ######################## Cool  Sitebar ########################### */
+/* ################################################################## */
+
+aside {
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #444;
+}
+
+aside ul {
+  height: 80px;
+  margin: 0;
+  list-style: 0;
+  color: #dadada;
+  border-bottom: 1px solid #555;
+  transition: all 300ms;
+  perspective: 800px;
+}
+
+aside ul li a {
+  position: relative;
+}
+
+aside ul li a .lw_menu_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  z-index: 2;
+  background: #444;
+}
+
+aside ul li a .lw_menu_icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 300ms cubic-bezier(0.42,0,0.2,1.69)
+}
+
+aside ul li a .lw_menu_name {
+  position: absolute;
+  left: 80px;
+  top: 0;
+  z-index: 1;
+  transform-style: preserve-3d;
+  transform: rotate3d(0, 1, 0, 0);
+  padding: 29px 35px 27px 35px;
+  background-color: #444;
+  border-left: 1px solid #555;
+  transition: all 600ms cubic-bezier(0.42,0,0.2,1.69)
+}
+
+aside ul li:hover > a .lw_menu_name {
+  transform: rotate3d(0, 1, 0, 0deg);
+  background-color: #555;
+}
+
+aside ul li:hover > a .lw_menu_icon i {
+  transform: scale(1.5) translate(-50%, -50%);
+  color: #fff;
+}
