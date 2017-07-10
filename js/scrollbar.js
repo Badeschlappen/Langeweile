@@ -11,17 +11,17 @@ $(document).ready(function(e) {
 
 		if(scroll_position > 850) {
 
-			$('#ud_gesamt_scrollbar').stop().animate({top: '65px'},300);
+			$('#lw_gesamt_scrollbar').stop().animate({top: '65px'},300);
 
 		};
 
 		if(scroll_position < 850) {
 
-			$('#ud_gesamt_scrollbar').stop().animate({top: '0px'},300);
+			$('#lw_gesamt_scrollbar').stop().animate({top: '0px'},300);
 
 		};
 
-		$('#ud_active_scrollbar').stop().animate({width: scroll_action + '%'},200);
+		$('#lw_active_scrollbar').stop().animate({width: scroll_action + '%'},200);
 
 	});
   $('.lw_icon').hover(function(e){
